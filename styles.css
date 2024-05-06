@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #36096d;
+    background: linear-gradient(315deg, #36096d 0%, #37d5d6 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+#name {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#weather-container {
+    width: 50%;
+    border: 3px solid #36096d; /* Set border color to match body background color */
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form, button {
+    text-align: center;
+    margin-bottom: 10px; /* Add margin to separate form and button */
+}
+#weather-data
+{
+    color: white;
+}
